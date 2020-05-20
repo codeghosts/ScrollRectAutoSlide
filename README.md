@@ -1,0 +1,2 @@
+# ScrollRectAutoSlide
+一个简易的ScrollRect的自动定位功能
