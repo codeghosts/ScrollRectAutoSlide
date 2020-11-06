@@ -52,7 +52,7 @@ public class ScrollRectAutoSlide : MonoBehaviour
             if (_currentTime >= _limitTime)
             {
                 _isSlide = false;
-                _ratio = _limitTime;
+                _ratio = 1.0;
                 Debug.Log("Arrived");
                 _currentTime = 0.0f;
                 foreach (var btn in button)
